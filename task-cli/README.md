@@ -6,13 +6,6 @@ Tasks are stored in a local JSON file (`tasks.json`) in the current directory.
 ## Requirements
 - Go (any recent version)
 
-## Setup (first run)
-This project reads tasks from `tasks.json`. Create an empty file like this on first run:
-
-~~~json
-[]
-~~~
-
 ## Build
 ### Windows (CMD)
 ~~~bat
