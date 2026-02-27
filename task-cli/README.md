@@ -3,6 +3,9 @@
 A simple CLI task tracker written in Go.  
 Tasks are stored in a local JSON file (`tasks.json`) in the current directory.
 
+## Project URL
+https://roadmap.sh/projects/task-tracker
+
 ## Requirements
 - Go (any recent version)
 
