@@ -6,3 +6,5 @@ task-cli: [https://roadmap.sh/projects/task-tracker](https://roadmap.sh/projects
 github-activity: [https://roadmap.sh/projects/github-user-activity](https://roadmap.sh/projects/github-user-activity)
 
 expense-tracker : https://roadmap.sh/projects/expense-tracker
+
+number-guessing-game : https://roadmap.sh/projects/number-guessing-game
