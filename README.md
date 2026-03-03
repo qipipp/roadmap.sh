@@ -10,3 +10,5 @@ expense-tracker : https://roadmap.sh/projects/expense-tracker
 number-guessing-game : https://roadmap.sh/projects/number-guessing-game
 
 unit-converter : https://roadmap.sh/projects/unit-converter
+
+weather-api : https://roadmap.sh/projects/weather-api-wrapper-service
