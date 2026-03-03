@@ -13,8 +13,10 @@
 docker run -d --name redis -p 6379:6379 redis
 
 ## 실행
-프로젝트 폴더에서:
+프로젝트 폴더에서
+
 go get github.com/redis/go-redis/v9
+
 go run .
 
 ## 테스트 (MISS -> HIT 확인)
