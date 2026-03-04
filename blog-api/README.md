@@ -32,13 +32,15 @@ CREATE TABLE IF NOT EXISTS posts (
   tags JSON NOT NULL,
   created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci; ```
+) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+```
 
 2) Create `config.json` in the project root:
 ```
 {
   "mysql_dsn": "root:YOUR_PASSWORD@tcp(127.0.0.1:3306)/blog?parseTime=true&charset=utf8mb4&collation=utf8mb4_0900_ai_ci&loc=Asia%2FSeoul"
-}```
+}
+```
 
 Server: http://localhost:8080
 
