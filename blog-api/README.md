@@ -17,13 +17,13 @@ Simple CRUD REST API for `posts` using Go `net/http` + MySQL.
 1) Create `schema.sql` and run it in MySQL:
 
 -- schema.sql
+```sql
 CREATE DATABASE IF NOT EXISTS blog
   CHARACTER SET utf8mb4
   COLLATE utf8mb4_0900_ai_ci;
 
 USE blog;
 
-```
 CREATE TABLE IF NOT EXISTS posts (
   id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   title VARCHAR(255) NOT NULL,
