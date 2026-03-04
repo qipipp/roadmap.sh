@@ -12,3 +12,5 @@ number-guessing-game : https://roadmap.sh/projects/number-guessing-game
 unit-converter : https://roadmap.sh/projects/unit-converter
 
 weather-api : https://roadmap.sh/projects/weather-api-wrapper-service
+
+blog-api : https://roadmap.sh/projects/blogging-platform-api
