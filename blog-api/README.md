@@ -23,7 +23,7 @@ CREATE DATABASE IF NOT EXISTS blog
 
 USE blog;
 
-CREATE TABLE IF NOT EXISTS posts (
+```CREATE TABLE IF NOT EXISTS posts (
   id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   title VARCHAR(255) NOT NULL,
   content TEXT NOT NULL,
@@ -31,18 +31,13 @@ CREATE TABLE IF NOT EXISTS posts (
   tags JSON NOT NULL,
   created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci; ```
 
 2) Create `config.json` in the project root:
-
+```
 {
   "mysql_dsn": "root:YOUR_PASSWORD@tcp(127.0.0.1:3306)/blog?parseTime=true&charset=utf8mb4&collation=utf8mb4_0900_ai_ci&loc=Asia%2FSeoul"
-}
-
-3) Install deps / run:
-
-go mod tidy
-go run .
+}```
 
 Server: http://localhost:8080
 
