@@ -16,7 +16,6 @@ Simple CRUD REST API for `posts` using Go `net/http` + MySQL.
 
 1) Create `schema.sql` and run it in MySQL:
 
--- schema.sql
 ```sql
 CREATE DATABASE IF NOT EXISTS blog
   CHARACTER SET utf8mb4
